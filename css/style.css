@@ -1,0 +1,137 @@
+header{
+  background-image: url("../pics/cover.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  overflow-x: hidden;
+}
+
+.navbar-bg{
+  background-color:
+  #1565c0;
+  color:white;
+  font-family: 'Hind Madurai', sans-serif;
+  margin:auto;
+  width:70%;
+  height:50px;
+  border-bottom-right-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+
+}
+.col-md-3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.col-md-3:hover{
+  background-color: #29f7bd;
+  height: 100%;
+  transition-delay: 0.1s;
+}
+.col-md-3:nth-child(1):hover{
+  background-color: #29f7bd;
+  height: 100%;
+  border-bottom-left-radius: 0.7rem;
+}
+.col-md-3:nth-child(4):hover{
+  background-color: #29f7bd;
+  height: 100%;
+  border-bottom-right-radius: 0.7rem;
+}
+.img-R{
+  margin-top: 35px;
+  text-align: center;
+  height:400px;
+  width:350px;
+}
+.R{
+  height:400px;
+  width:350px;
+}
+.name{
+  color:#8bc34a;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+.name h1{
+  font-size: 50px;
+}
+.spec{
+  color:#009688;
+  text-align: center;
+}
+.spec h6{
+  font-size: 20px;
+}
+
+.contact{
+  background-color: #f18746;
+  text-align: center;
+}
+.contact-row1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+#Contact_head{
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  padding:10px;
+  text-shadow:black 4px 4px;
+  font-weight: bold;
+}
+#Contact_para{
+  color:#222221;
+  font-weight: bold;
+  font-family: 'Fresca', sans-serif;
+  font-size: 30px;
+}
+.pic_row{
+  text-align: center;
+
+}
+.contact_boy{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.contact-row3{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.contact_icons{
+  height:40px;
+  width:40px;
+
+}
+.contact_icons:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media (max-width:767px){
+  .navbar-bg{
+    background-color:
+    #1565c0;
+    color:white;
+    font-family: 'Hind Madurai', sans-serif;
+    margin:auto;
+    width:40%;
+    height:50px;
+    border-bottom-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+}
+.col-md-3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #1565c0;
+
+}
+.col-md-3:nth-child(4){
+  border-bottom-right-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+}
+
+}
