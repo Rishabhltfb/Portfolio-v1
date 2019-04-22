@@ -1,3 +1,4 @@
+/* Header Section */
 header{
   background-image: url("../pics/cover.jpg") ;
   background-size: cover;
@@ -9,10 +10,10 @@ header{
 .navbar-bg{
   background-color:
   #1565c0;
-  color:white;
+  color:#e7e0de;
   font-family: 'Hind Madurai', sans-serif;
   margin:auto;
-  width:70%;
+  width:50%;
   height:50px;
   border-bottom-right-radius: 0.7rem;
   border-bottom-left-radius: 0.7rem;
@@ -22,6 +23,13 @@ header{
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
+}
+.navigate{
+  color:#e7e0de;
+}
+.navigate:hover{
+  text-decoration:none;
 }
 .col-md-3:hover{
   background-color: #29f7bd;
@@ -64,6 +72,79 @@ header{
   font-size: 20px;
 }
 
+
+/* Skills Section */
+.skill-container{
+  background: url("../pics/skills-cover.png") no-repeat;
+  background-position:top;
+  background-color: #ef9c48;
+
+}
+.skill-row-title{
+  background-color: #2f4858;
+  color:#fff;
+  border-top-left-radius:0.6rem;
+  border-top-right-radius:0.6rem;
+}
+.skill-box-title{
+  font-size: 25px;
+}
+.skill-box ul li{
+  list-style: none;
+  font-weight:bold;
+  margin: 10px;
+}
+.skill-box{
+
+  height:400px;
+  background: url("../pics/skill-box.png") no-repeat;
+  background-position:bottom;
+  background-color: #fcd6b2;
+  text-align: left;
+  padding-top: 50px;
+  border-bottom-left-radius:0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+.skill-box-common{
+  box-shadow: 7px 7px 3px #a87459;
+  border-radius: 0.6rem;
+  margin:10px;
+}
+
+
+/* Projects Section */
+.projects{
+  background-color: #33b4fa;
+}
+.project-container{
+  background: url("../pics/project-cover.png") no-repeat;
+}
+.project-row2{
+  text-align: center;
+  padding:40px;
+}
+.project-row3{
+  text-align: center;
+  padding:40px;
+}
+.project-img{
+  border-radius: 0.4rem;
+  box-shadow: 0px 12px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  height:350px;
+  width:550px;
+  opacity:0.8;
+}
+.project-img:hover{
+  opacity:1;
+  transform: scale(1.1);
+}
+.col-img{
+  margin:10px;
+}
+
+
+/* Contact Section */
 .contact{
   background-color: #f18746;
   text-align: center;
@@ -72,13 +153,14 @@ header{
   text-align: center;
   margin-bottom: 20px;
 }
-#Contact_head{
+.Section_head{
   color: white;
   text-align: center;
   margin: auto;
-  font-size: 50px;
+  font-size: 60px;
   padding:10px;
-  text-shadow:black 4px 4px;
+  text-shadow: 5px 6px 5px grey;
+  text-shadow: 5px 6px 6px black;
   font-weight: bold;
 }
 #Contact_para{
@@ -111,6 +193,7 @@ header{
 }
 
 @media (max-width:767px){
+/*Header Section*/
   .navbar-bg{
     background-color:
     #1565c0;
@@ -133,5 +216,13 @@ header{
   border-bottom-right-radius: 0.7rem;
   border-bottom-left-radius: 0.7rem;
 }
-
+/*Projects Section*/
+.project-img{
+  border-radius: 0.4rem;
+  box-shadow: 0px 12px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  height:150px;
+  width:250px;
+  opacity:0.8;
+}
 }
